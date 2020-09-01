@@ -8,6 +8,17 @@ I. Tools used:
 
     - $ npm install nodemon --save-dev: automatically update
     the server while running if there is any changes in the code
+        NOTE THIS: 
+        $ npm install nodemon --save-dev: applied the dependency
+        on this project only. So when you run $ nodemon app.js, 
+        the terminal won't recognize the command. We can run 
+        $ npm start, see package.json under "start" to see why 
+        (5th Commit)
+
+        $ npm install -g nodemon: will install the dependency
+        globally so you can use it for any projects, and when you run
+        $ nodemon app.js, terminal will recognize
+
 
 II. Core Concepts: 
     1. npm & Packages: 
@@ -61,6 +72,6 @@ III. Commits Logs:
         create node_modules file
 
         NOTE: Changed scripts in package.json 
-        in 4th commit so we can just run 
+        in 5th commit so we can just run 
         $ npm start 
         nodemon will be automatically applied
