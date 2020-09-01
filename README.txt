@@ -8,6 +8,8 @@ II. Core Concepts:
 III. Commits Logs: 
 
     1. Using configuration file: 
+    - Files in 2nd Commit
+    
     - $ npm init > release package.json file is a
     configuration file for your project. 
 
