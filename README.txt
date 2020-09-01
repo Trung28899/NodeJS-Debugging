@@ -59,3 +59,8 @@ III. Commits Logs:
         - This will produce a package-lock.json, 
         write its version in package.json and 
         create node_modules file
+
+        NOTE: Changed scripts in package.json 
+        in 4th commit so we can just run 
+        $ npm start 
+        nodemon will be automatically applied
