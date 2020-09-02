@@ -37,6 +37,37 @@ II. Core Concepts:
             +, Stored on npm Repository, which 
             is a cloud Repository
 
+    2. Types of Errors: 
+        - Syntax Errors: 
+            +, Shown when compiled
+        - Runtime Errors: 
+            +, Some code break when it runs
+            +, You'll see the message in the terminal 
+            if the code run into any issue
+        - Logical Errors: 
+            + Hard to find since no editor 
+              recognize it so you get no 
+              error message
+            +, You can use the VS code debugging
+               tool for these kind of errors
+    
+    3. Using VS Code Debuggin Tool For NodeJs: 
+        - Stop the Server > Debug (On the top bar) 
+        > Start Debugging > Debug w NodeJs
+
+        - Put a red dot on any line (2:45 video 50)
+        to run the program up until that point. Any 
+        code down below won't be executed
+
+        - After run the program, hit View (On the top bar)
+        > Debugging > This will show the whole code info
+        on VS Code
+
+        - More on it: 
+            +, Video 50 - 52, 54
+            +, Documentation: 
+            https://code.visualstudio.com/docs/nodejs/nodejs-debugging
+
 III. Commits Logs: 
 
     1. Using configuration file: 
@@ -75,3 +106,16 @@ III. Commits Logs:
         in 5th commit so we can just run 
         $ npm start 
         nodemon will be automatically applied
+
+IV. Note: 
+    - This module contain 2 main contents: 
+        +, Understanding npm and 3rd Party packages
+        +, Learning the VSCode debugging tool for NodeJS
+    
+    - VS Code debugging is a skill, need to revised and 
+    practice overtime to really get it.
+
+    - Here are some resources for the Debugging Tools: 
+        +, Video 50 - 52, 54
+        +, Documentation: 
+        https://code.visualstudio.com/docs/nodejs/nodejs-debugging
